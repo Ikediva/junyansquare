@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+canvas {
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+#controls button {
+    margin: 5px;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+    background-color: #0056b3;
+}
